@@ -12,6 +12,7 @@ int main() {
     
     cout << "How many days in the future would you like a prediction for?\n";
     cin >> num_days;
+    // Takes initial snow, adds the expected snowfall and subtracts the expected melted snow
     breck = 25+(10*num_days)-(5*num_days);
     vail  = 28+(14*num_days)-(2*num_days);
     copper = 40+(5*num_days)-(3*num_days);

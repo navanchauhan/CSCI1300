@@ -10,7 +10,7 @@ using namespace std;
 int main() {
     string name;
     cout << "Please enter your name below:\n";
-    cin >> name;
-    cout << "Hello, " << name << "!";
+    cin >> name; // Takes user input
+    cout << "Hello, " << name << "!"; // Prints user's input
     return 0;
 }
